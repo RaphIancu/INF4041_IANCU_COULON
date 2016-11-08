@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Biblio Tech</string>
+    <string name="title">Bienvenue sur notre application !</string>
+    <string name="descritpion">Cette application vous permet de lire des résumés de livres.</string>
+    <string name="toastReady">Tu es prêt à lire !</string>
+    <string name="btBienvenu">Bienvenue</string>
+</resources>

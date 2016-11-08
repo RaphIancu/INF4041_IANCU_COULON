@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biblio Tech</string>
+    <string name="title">Welcome on our application !</string>
+    <string name="descritpion">You can read all your resume\'s book on this application.</string>
+    <string name="toastReady">You are ready to read !</string>
+    <string name="btBienvenu">Welcome</string>
+</resources>
