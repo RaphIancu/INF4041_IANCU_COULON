@@ -1,9 +1,11 @@
 package org.esiea.iancu_coulon.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -22,7 +24,7 @@ public class ListBook extends AppCompatActivity {
         listBook = (ListView) findViewById(R.id.list);
         //define array values
         String[] values = new String[]{
-          "0","1","2","3","4","5","6","7","8","9"
+            "0","1","2","3","4","5","6","7","8","9"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, android.R.id.text1, values);
         // assign adapter to listView
@@ -45,6 +47,24 @@ public class ListBook extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.book:
+                Intent intent = new Intent(this, ListBook.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.option:
+                // action a faire
+                GetBiersServices.startActionBiers(this);
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
 
