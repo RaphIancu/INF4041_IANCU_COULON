@@ -3,12 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item android:title="book"
+    <item android:title="@string/book"
         android:id="@+id/book"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom"
         android:icon="@drawable/books" />
-    <item android:title="option"
-        android:id="@+id/option"
-        android:showAsAction="always"
-        android:icon="@android:drawable/ic_menu_preferences" />
+    <item android:title="@string/propos"
+        android:id="@+id/propos"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_help" />
 </menu>

@@ -1,11 +1,15 @@
 package org.esiea.iancu_coulon.myapplication;
 
 import android.app.IntentService;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.Context;
 import android.content.IntentFilter;
+import android.support.v4.app.TaskStackBuilder;
 import android.support.v4.content.LocalBroadcastManager;
+import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 
 import java.io.File;
@@ -69,6 +73,21 @@ public class GetBiersServices extends IntentService {
             if(HttpURLConnection.HTTP_OK == conn.getResponseCode()) {
                 copyInputStreamToFile(conn.getInputStream(), new File(getCacheDir(), "bieres.json"));
                 Log.d("Log", "Bieres json download");
+                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
+                mBuilder.setSmallIcon(R.drawable.books);
+                mBuilder.setContentTitle(getString(R.string.titleDialog));
+                mBuilder.setContentText(getString(R.string.textDialog));
+
+                Intent resultIntent = new Intent(this, MainActivity.class);
+                TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
+                stackBuilder.addParentStack(MainActivity.class);
+
+                stackBuilder.addNextIntent(resultIntent);
+                PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0,PendingIntent.FLAG_UPDATE_CURRENT);
+                mBuilder.setContentIntent(resultPendingIntent);
+                NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+                mNotificationManager.notify(1, mBuilder.build());
                 LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(BIERS_UPDATE));
             }
         } catch(MalformedURLException e) {

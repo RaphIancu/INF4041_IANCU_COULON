@@ -1,8 +1,14 @@
 package org.esiea.iancu_coulon.myapplication;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
+import android.support.v4.app.TaskStackBuilder;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.NotificationCompat;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -57,9 +63,31 @@ public class ListBook extends AppCompatActivity {
                 startActivity(intent);
                 return true;
 
-            case R.id.option:
+            case R.id.propos:
+                /*NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
+                 mBuilder.setSmallIcon(R.drawable.books);
+                 mBuilder.setContentTitle(getString(R.string.titleNotif));
+                 mBuilder.setContentText(getString(R.string.textNotif));
+
+                 Intent resultIntent = new Intent(this, MainActivity.class);
+                 TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
+                 stackBuilder.addParentStack(MainActivity.class);
+
+                 stackBuilder.addNextIntent(resultIntent);
+                 PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0,PendingIntent.FLAG_UPDATE_CURRENT);
+                 mBuilder.setContentIntent(resultPendingIntent);
+                 NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+                 mNotificationManager.notify(1, mBuilder.build());
+                 */
+                AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
+                dlgAlert.setTitle(getString(R.string.titleDialog));
+                dlgAlert.setMessage(getString(R.string.textDialog));
+                dlgAlert.setCancelable(true);
+                dlgAlert.create().show();
+
                 // action a faire
-                GetBiersServices.startActionBiers(this);
+                //GetBiersServices.startActionBiers(this);
                 return true;
 
             default:

@@ -4,4 +4,8 @@
     <string name="descritpion">Cette application vous permet de lire des résumés de livres.</string>
     <string name="toastReady">Tu es prêt à lire !</string>
     <string name="btBienvenu">Bienvenue</string>
+    <string name="book">Livre</string>
+    <string name="propos">A propos</string>
+    <string name="titleDialog">A propos de Biblio Tech</string>
+    <string name="textDialog">Application créée en novembre 2016 par Raphaël IANCU et Florent COULON</string>
 </resources>

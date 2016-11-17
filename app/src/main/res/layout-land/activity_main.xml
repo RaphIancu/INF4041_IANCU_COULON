@@ -6,11 +6,26 @@
     android:weightSum="1">
 
     <TextView
+        android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        app:srcCompat="@drawable/book_home"
+        android:id="@+id/imageView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
         android:text="@string/descritpion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/description"
-        android:layout_above="@+id/btBienvenu"
+        android:layout_below="@id/imageView2"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -21,21 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="26dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/description" />
 
-    <TextView
-        android:text="@string/title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/title"
-        android:gravity="center"
-        android:layout_above="@+id/imageView2" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/book_home"
-        android:id="@+id/imageView2"
-        android:layout_above="@+id/description"
-        android:layout_alignParentStart="true" />
 </RelativeLayout>
