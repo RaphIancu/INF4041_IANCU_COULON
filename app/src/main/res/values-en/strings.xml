@@ -2,11 +2,13 @@
 <resources>
     <string name="app_name">Biblio Tech</string>
     <string name="title">Welcome on our application !</string>
-    <string name="descritpion">You can read all your resume\'s book on this application.</string>
+    <string name="descritpion">You can read all your resume\'s androidVersion on this application.</string>
     <string name="toastReady">You are ready to read !</string>
     <string name="btBienvenu">Welcome</string>
     <string name="book">Book</string>
     <string name="propos">About</string>
     <string name="titleDialog">About Biblio Tech</string>
     <string name="textDialog">Application create in november 2016 by Raphaël IANCU and Florent COULON</string>
+    <string name="titleNotif">JSON Download</string>
+    <string name="textNotif">Book\'s List have been download</string>
 </resources>

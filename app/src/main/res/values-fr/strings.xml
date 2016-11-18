@@ -9,4 +9,6 @@
     <string name="propos">A propos</string>
     <string name="titleDialog">A propos de Biblio Tech</string>
     <string name="textDialog">Application créée en novembre 2016 par Raphaël IANCU et Florent COULON</string>
+    <string name="titleNotif">JSON Téléchargé</string>
+    <string name="textNotif">La liste des livres a été téléchargée</string>
 </resources>

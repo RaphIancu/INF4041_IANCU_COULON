@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ebf9725bcfc29c9b6d4284067d7dfe6523f4d650">
+        sha1="a29a0962e36c13fa4939528a7d74f8b29556b761">
         <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_13f1b2809d1ca6504d408d93998822e5f395ab6d\classes.dex" />
     </item>
     <item
@@ -81,6 +81,15 @@
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_df5df07a015baac5ed2b33298c719b7ee2b5d086\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_79c1300299b4cc0d5337a23f8b415302997ebb3d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -151,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f41f804ce8fcb56e40a72dfc997147fd631bdb88">
+        sha1="1d11143c99510751ece1972a19173eb08d1fa66f">
         <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_645517c80095640c20cc3df023a1f214f2fced8b\classes.dex" />
     </item>
 

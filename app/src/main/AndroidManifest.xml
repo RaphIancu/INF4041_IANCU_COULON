@@ -9,7 +9,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Biblio Tech"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light">
@@ -20,12 +20,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ListBook"
-            android:theme="@style/Theme.AppCompat.Light" />
-
-        <service
-            android:name=".GetBiersServices"
-            android:exported="false"></service>
+            android:name=".ListOfBooks"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
     </application>
 
 </manifest>
