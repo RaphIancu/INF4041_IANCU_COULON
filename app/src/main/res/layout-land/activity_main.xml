@@ -29,23 +29,22 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="@string/btBienvenu"
-        android:layout_width="230dp"
-        android:id="@+id/btBienvenu"
-        android:elevation="0dp"
+        android:text="@string/btJoin"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="26dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/description" />
+        android:id="@+id/btJoin"
+        android:layout_marginLeft="20dp"
+        android:layout_width="200dp"
+        android:layout_alignBaseline="@+id/btBienvenu"
+        android:layout_alignBottom="@+id/btBienvenu"
+        android:layout_toEndOf="@+id/btBienvenu" />
 
     <Button
-        android:text="@string/btJoin"
-        android:layout_width="wrap_content"
+        android:text="@string/btBienvenu"
+        android:layout_width="200dp"
+        android:id="@+id/btBienvenu"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/btJoin"
-        android:layout_below="@id/btBienvenu"/>
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/description"
+        android:layout_alignStart="@+id/description" />
 
 </RelativeLayout>
