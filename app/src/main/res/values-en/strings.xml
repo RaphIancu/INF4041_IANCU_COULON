@@ -11,4 +11,8 @@
     <string name="textDialog">Application create in november 2016 by Raphaël IANCU and Florent COULON</string>
     <string name="titleNotif">JSON Download</string>
     <string name="textNotif">Book\'s List have been download</string>
+    <string name="btJoin">Join us</string>
+    <string name="subject">Insert a subject</string>
+    <string name="message">Insert a message</string>
+    <string name="emailClient">Choose an Email client :</string>
 </resources>

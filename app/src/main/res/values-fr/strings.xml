@@ -11,4 +11,8 @@
     <string name="textDialog">Application créée en novembre 2016 par Raphaël IANCU et Florent COULON</string>
     <string name="titleNotif">JSON Téléchargé</string>
     <string name="textNotif">La liste des livres a été téléchargée</string>
+    <string name="btJoin">Nous joindre</string>
+    <string name="subject">Insérer un objet</string>
+    <string name="message">Insérer un message</string>
+    <string name="emailClient">Choississez une application:</string>
 </resources>

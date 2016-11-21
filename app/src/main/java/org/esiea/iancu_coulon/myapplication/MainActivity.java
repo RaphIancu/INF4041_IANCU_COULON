@@ -9,7 +9,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +22,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button button = (Button)findViewById(R.id.btBienvenu);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListOfBooks.class );
+                startActivity(intent);
+            }
+        });
+        final Button buttonJoin = (Button)findViewById(R.id.btJoin);
+        buttonJoin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent email = new Intent(Intent.ACTION_SEND);
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"iancu@et.esiea.fr"});
+                email.putExtra(Intent.EXTRA_CC, new String[]{"coulon@et.esiea.fr"});
+                email.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.subject));
+                email.putExtra(Intent.EXTRA_TEXT, getString(R.string.message));
+                email.setType("message/rfc822");
+                startActivity(Intent.createChooser(email, getString(R.string.emailClient)));
+            }
+        });
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

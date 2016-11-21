@@ -48,4 +48,12 @@
         android:layout_marginTop="20dp"
         android:layout_below="@id/description" />
 
+    <Button
+        android:text="@string/btJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btBienvenu"
+        android:layout_alignStart="@+id/btBienvenu"
+        android:id="@+id/btJoin" />
+
 </RelativeLayout>
