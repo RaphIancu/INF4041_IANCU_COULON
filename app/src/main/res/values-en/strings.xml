@@ -4,7 +4,8 @@
     <string name="title">Welcome on our application !</string>
     <string name="descritpion">You can read all your resume\'s androidVersion on this application.</string>
     <string name="toastReady">You are ready to read !</string>
-    <string name="btBienvenu">Welcome</string>
+    <string name="btBienvenu">Books with an Asynchronous Task</string>
+    <string name="btBienvenuRecycler">Books with RecyclerView</string>
     <string name="book">Book</string>
     <string name="propos">About</string>
     <string name="titleDialog">About Biblio Tech</string>

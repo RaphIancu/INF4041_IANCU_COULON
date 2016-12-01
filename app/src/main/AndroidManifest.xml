@@ -23,6 +23,10 @@
             android:name=".ListOfBooks"
             android:theme="@style/Theme.AppCompat.Light">
         </activity>
+        <activity
+            android:name=".ListOfBooksRecycler"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
     </application>
 
 </manifest>

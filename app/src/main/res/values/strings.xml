@@ -3,7 +3,8 @@
     <string name="title">Bienvenue sur notre application !</string>
     <string name="descritpion">Cette application vous permet de lire des résumés de livres.</string>
     <string name="toastReady">Tu es prêt à lire !</string>
-    <string name="btBienvenu">Bienvenue</string>
+    <string name="btBienvenu">Livres avec tache asynchrone</string>
+    <string name="btBienvenuRecycler">Livres avec RecyclerView</string>
     <string name="book">Livre</string>
     <string name="propos">A propos</string>
     <string name="titleDialog">A propos de Biblio Tech</string>

@@ -1,9 +1,6 @@
 package org.esiea.iancu_coulon.myapplication;
 
-import android.app.Notification;
 import android.os.AsyncTask;
-import android.support.v7.app.NotificationCompat;
-import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
@@ -65,8 +62,6 @@ public class LoadJSONTask extends AsyncTask<String, Void, Response> {
         conn.setRequestMethod("GET");
         conn.setDoInput(true);
         conn.connect();
-
-        Log.d("Log", "JSON download");
 
         BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
         String line;

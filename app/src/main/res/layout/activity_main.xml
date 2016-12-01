@@ -37,23 +37,29 @@
         android:width="200dp"
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp" />
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:text="@string/btBienvenuRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btBienvenuRecycler"
+        android:layout_below="@+id/description" />
 
     <Button
         android:text="@string/btBienvenu"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btBienvenu"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/description" />
+        android:layout_below="@+id/btBienvenuRecycler"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="@string/btJoin"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btJoin"
         android:layout_below="@+id/btBienvenu"
-        android:layout_alignStart="@+id/btBienvenu"
-        android:id="@+id/btJoin" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

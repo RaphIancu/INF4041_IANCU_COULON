@@ -4,12 +4,12 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.app.TaskStackBuilder;
-import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.app.NotificationCompat;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -45,6 +45,7 @@ public class ListOfBooks extends AppCompatActivity implements LoadJSONTask.Liste
         mListView = (ListView) findViewById(R.id.list_view);
         mListView.setOnItemClickListener(this);
         new LoadJSONTask(this).execute(URL);
+        Log.d("Log", "JSON download");
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setSmallIcon(R.drawable.books);
         mBuilder.setContentTitle(getString(R.string.titleNotif));
@@ -103,11 +104,6 @@ public class ListOfBooks extends AppCompatActivity implements LoadJSONTask.Liste
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.book:
-                Intent intent = new Intent(this, ListOfBooks.class );
-                startActivity(intent);
-                return true;
-
             case R.id.propos:
                 AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
                 dlgAlert.setTitle(getString(R.string.titleDialog));

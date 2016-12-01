@@ -3,165 +3,219 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_ca16cf9cd2132df546d6ce027b3d844542b6b5bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_7bcbc09d897af752f699847ab0a3ac8bfd0bbba2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_498ddcd0d90f21ad5553bb584631eb280815c34d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_7c45e37d158d6c58a40258da67338cec4a9dda94\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_3d20c34b77e6d01ce8810aaf301dda91b1945ffd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="79d171f78e60b5ffd9c14e0eaa123279cfbf6135">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_020b1022bb2cd883cdbc81aeb6b96d7886138634\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_cabb36d3dcb587dbee9323f18694f69abce7b84b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_1f502e3e4d26131d8fe834cee691d670d09c65b2\classes.dex" />
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_5a89b6023be7e6e840b151362dd674654d72437a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_8fcf398acb506f979a3f96798ac50874d42288b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="70de6ee357895e5c1464ed0ddd060fb0a522368c">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_df31419ff66701257172c1946ca7b3ef9005ed9b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_a5a69caacd8251b58c518b803a0133ef35d990ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e1a604fdbaa17bb916e1de985d2fe9986463ee57\classes.dex" />
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c6df25c0588d08bb22ce983b2d5f2c3ee8da850d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c51cebd02050ab66b9082a8539d3aabfbd6ea46e\classes.dex" />
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_5e4c053a540f586db378db235fd01bb702df96f5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_78f4e18e21aa9a8e0df2afdfd4c7c5eeacccd7e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_72721638454c68c190c3b4ccf3f653f39e68cde6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e839dda765d7ed8ea6a207e2c1d9ca95018c1442">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_13f1b2809d1ca6504d408d93998822e5f395ab6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_30c2372bad83ba5883f803c460e4f961626cd7e1\classes.dex" />
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_c3d5def58fa1417e065d719413c62629f133ab22\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\007\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_23429c5e8bb6a046f4308f8f3faac25c3db2f105\classes.dex" />
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1004e65075c90ddeb1f6627100449505cb9db67c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_2c1f4b83c4cb40a14f9977cd959f135e06317529\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_df5df07a015baac5ed2b33298c719b7ee2b5d086\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_38269e31349fd119b5ee1c1ff70fae717ce2fd18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_79c1300299b4cc0d5337a23f8b415302997ebb3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_3d30a84297d7f05c794af14b119271dc14c6e1e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_082823146a0430a2e10ff46c2ad68f4773c9a576\classes.dex" />
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_707bed5f30f4123188b9e1adec433bdc0fe291f8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Raphael\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_84a424cfd02da89db1e34f2cc8f7cc1b8c41ea76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta4_badac0bb826e61f00b6f75bdff801b6565ef5ad9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.0.1_29ea0ee4370d1cc4b6c06e8c1f4bc8e694d60068\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_8d4b7bbf31e0088be0f97f6078bad93f948faf62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9501b00a9d767006ada18f791753af299f9eb397\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_35dfdb64cc4f2311c4e14916ef0d588fcfb7bc7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_c58dd7350af9633b13127df09dba10749622a700\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\007\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d449a09c4ced34b7c050eb1aba3cea87db6fedde\classes.dex" />
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_28d78ce86c759fab522874a13885f0e4c19a59b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_56e4cfedeeb1dda87137c1b221dafd1ccd236328\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff90b39ca3edf1546df57fb6dc79a46d02d9ae7a">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_645517c80095640c20cc3df023a1f214f2fced8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\Raphael\AndroidStudioProjects\INF4041_IANCU_COULON\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_dce2e2eb2329fffabf9bbd365e4e3d56f99366ca\classes.dex" />
     </item>
 
 </items>

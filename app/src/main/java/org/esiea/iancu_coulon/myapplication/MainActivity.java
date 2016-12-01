@@ -2,16 +2,14 @@ package org.esiea.iancu_coulon.myapplication;
 
 
 import android.content.Intent;
-
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,8 +19,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button button = (Button)findViewById(R.id.btBienvenu);
-        button.setOnClickListener(new View.OnClickListener() {
+        final Button buttonBienvenuRecycler = (Button)findViewById(R.id.btBienvenuRecycler);
+        buttonBienvenuRecycler.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListOfBooksRecycler.class );
+                startActivity(intent);
+            }
+        });
+
+        final Button buttonBienvenu = (Button)findViewById(R.id.btBienvenu);
+        buttonBienvenu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ListOfBooks.class );
                 startActivity(intent);
@@ -51,11 +57,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
          switch (item.getItemId()) {
-             case R.id.book:
-                 Intent intent = new Intent(MainActivity.this, ListOfBooks.class );
-                 startActivity(intent);
-                return true;
-
              case R.id.propos:
                  AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
                  dlgAlert.setTitle(getString(R.string.titleDialog));
