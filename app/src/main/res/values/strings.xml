@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Biblio Tech</string>
+    <string name="app_name">Andro Tech</string>
     <string name="title">Bienvenue sur notre application !</string>
-    <string name="descritpion">Cette application vous permet de lire des résumés de livres.</string>
-    <string name="toastReady">Tu es prêt à lire !</string>
-    <string name="btBienvenu">Livres avec tache asynchrone</string>
-    <string name="btBienvenuRecycler">Livres avec RecyclerView</string>
-    <string name="book">Livre</string>
+    <string name="descritpion">Cette application vous permet de voir toutes les versions d\'android.</string>
+    <string name="toastReady">Tu es prêt à commencer !</string>
+    <string name="btBienvenu">Android avec tache asynchrone</string>
+    <string name="btBienvenuRecycler">Android avec RecyclerView</string>
+    <string name="android">Android</string>
     <string name="propos">A propos</string>
-    <string name="titleDialog">A propos de Biblio Tech</string>
+    <string name="titleDialog">A propos de Andro Tech</string>
     <string name="textDialog">Application créée en novembre 2016 par Raphaël IANCU et Florent COULON</string>
     <string name="titleNotif">JSON Téléchargé</string>
-    <string name="textNotif">La liste des livres a été téléchargée</string>
+    <string name="textNotif">La liste des versions Android a été téléchargée</string>
     <string name="btJoin">Nous joindre</string>
     <string name="subject">Insérer un objet</string>
     <string name="message">Insérer un message</string>

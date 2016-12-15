@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ListOfBooks"
+            android:name=".ListOfAndroid"
             android:theme="@style/Theme.AppCompat.Light">
         </activity>
         <activity
-            android:name=".ListOfBooksRecycler"
+            android:name=".ListOfAndroidRecycler"
             android:theme="@style/Theme.AppCompat.Light">
         </activity>
     </application>

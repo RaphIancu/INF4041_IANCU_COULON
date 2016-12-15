@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         final Button buttonBienvenuRecycler = (Button)findViewById(R.id.btBienvenuRecycler);
         buttonBienvenuRecycler.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ListOfBooksRecycler.class );
+                Intent intent = new Intent(MainActivity.this, ListOfAndroidRecycler.class );
                 startActivity(intent);
             }
         });
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         final Button buttonBienvenu = (Button)findViewById(R.id.btBienvenu);
         buttonBienvenu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ListOfBooks.class );
+                Intent intent = new Intent(MainActivity.this, ListOfAndroid.class );
                 startActivity(intent);
             }
         });
