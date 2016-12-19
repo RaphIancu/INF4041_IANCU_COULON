@@ -10,6 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toast.makeText(this, R.string.title, Toast.LENGTH_LONG).show();
 
         final Button buttonBienvenuRecycler = (Button)findViewById(R.id.btBienvenuRecycler);
         buttonBienvenuRecycler.setOnClickListener(new View.OnClickListener() {

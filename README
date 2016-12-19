@@ -1,0 +1,15 @@
+Application a été réalisée par Raphaël IANCU et Florent COULON
+
+Cette application sur les versions d'android contient:
+  - Les ressources pour afficher les chaines de caractères en français et anglais
+  - Des éléments graphiques (boutons, textViews et image)
+  - Deux gabarits différents (portrait et landscape)
+  - 3 activités
+  - Des Toasts (au démarrage, et lorsque l'on clique sur les versions d'android en tache asynchrone)
+  - Des notifications lorsque l'on récupére les JSON (RecyclerView et asynchrone)
+  - Une boite de dialogue avec le bouton de l'action bar "A propos"
+  - Un service de téléchargment des JSON
+  - Un appel vers une application de mail pour nous joindre
+  - Deux affichages de données: une avec un RecyclerView et un autre en tâche asynchrone
+
+
